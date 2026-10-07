@@ -1,0 +1,11 @@
+## Title: Movable Window Example
+## Description: A draggable window with position saved to SavedVariables and a LibAddonMenu lock/reset toggle -- see docs/04-libaddonmenu.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+## SavedVariables: MovableWindowExampleSV
+## DependsOn: LibAddonMenu-2.0>=35
+
+MovableWindowExample.xml
+MovableWindowExample.lua

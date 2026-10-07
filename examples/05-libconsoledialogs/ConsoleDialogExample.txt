@@ -1,0 +1,10 @@
+## Title: LibConsoleDialogs Example
+## Description: A gamepad-mode settings dialog using LibConsoleDialogs -- see docs/05-libconsoledialogs.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+## SavedVariables: ConsoleDialogExampleSV
+## OptionalDependsOn: LibConsoleDialogs
+
+ConsoleDialogExample.lua

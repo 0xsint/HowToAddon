@@ -1,0 +1,12 @@
+## Title: All In One Example
+## Description: Combines every guide in this repo into one addon -- XML UI, LibAddonMenu + LibConsoleDialogs settings, SavedVariables, ability id logging, combat/effect/power events, and player stats.
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+## SavedVariables: AllInOneExampleSV
+## DependsOn: LibAddonMenu-2.0>=35
+## OptionalDependsOn: LibConsoleDialogs
+
+AllInOneExample.xml
+AllInOneExample.lua

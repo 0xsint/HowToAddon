@@ -1,0 +1,8 @@
+## Title: Combat Effect Power Example
+## Description: Demonstrates EVENT_COMBAT_EVENT, EVENT_EFFECT_CHANGED and EVENT_POWER_UPDATE -- see docs/08-combat-effect-power-events.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+
+CombatEventExample.lua

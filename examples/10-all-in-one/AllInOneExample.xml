@@ -1,0 +1,40 @@
+<GuiXml>
+    <Controls>
+        <!-- See docs/02-xml-reference.md and docs/04-libaddonmenu.md (movable window pattern) -->
+        <TopLevelControl name="AllInOneExampleWindow" mouseEnabled="true" movable="true" clampedToScreen="true" hidden="true">
+            <Dimensions x="340" y="220" />
+            <Anchor point="CENTER" />
+            <OnMoveStop>
+                AllInOneExample.OnWindowMoveStop(self)
+            </OnMoveStop>
+            <Controls>
+                <Backdrop name="$(parent)Bg" inherits="ZO_DefaultBackdrop">
+                    <AnchorFill />
+                </Backdrop>
+
+                <Label name="$(parent)Title" font="ZoFontWinH3" text="All In One Example">
+                    <Anchor point="TOP" offsetY="8" />
+                </Label>
+
+                <Button name="$(parent)CloseButton" inherits="ZO_CloseButton">
+                    <Anchor point="TOPRIGHT" offsetX="-4" offsetY="4" />
+                    <OnClicked>
+                        AllInOneExampleWindow:SetHidden(true)
+                    </OnClicked>
+                </Button>
+
+                <!-- Live player stats display, see docs/09-player-stats.md -->
+                <Label name="$(parent)StatsLabel" font="ZoFontGame" wrapMode="ELLIPSIS" text="Stats: (loading)">
+                    <Dimensions x="300" y="60" />
+                    <Anchor point="TOPLEFT" offsetX="16" offsetY="34" />
+                </Label>
+
+                <!-- Rolling ability/combat log tail, see docs/06-ability-id-logging.md and docs/08-combat-effect-power-events.md -->
+                <Label name="$(parent)LogLabel" font="ZoFontGameSmall" wrapMode="ELLIPSIS" text="Log: (no entries yet)">
+                    <Dimensions x="300" y="80" />
+                    <Anchor point="TOPLEFT" offsetX="16" offsetY="100" />
+                </Label>
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>

@@ -1,0 +1,9 @@
+## Title: SavedVariables Example
+## Description: Safe SavedVariables usage with ZO_SavedVars, defaults, and a bounded log buffer -- see docs/07-savedvariables.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+## SavedVariables: SavedVarsExampleSV
+
+SavedVarsExample.lua

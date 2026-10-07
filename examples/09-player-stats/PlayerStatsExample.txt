@@ -1,0 +1,8 @@
+## Title: Player Stats Example
+## Description: Demonstrates GetPlayerStat, GetUnitPower, and refreshing derived stats -- see docs/09-player-stats.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+
+PlayerStatsExample.lua

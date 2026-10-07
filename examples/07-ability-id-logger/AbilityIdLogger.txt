@@ -1,0 +1,9 @@
+## Title: Ability Id Logger
+## Description: Logs ability ids from combat/effect events into SavedVariables -- see docs/06-ability-id-logging.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+## SavedVariables: AbilityIdLoggerSV
+
+AbilityIdLogger.lua

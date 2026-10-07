@@ -1,0 +1,19 @@
+<GuiXml>
+    <Controls>
+        <TopLevelControl name="MovableWindowExampleWindow" mouseEnabled="true" movable="true" clampedToScreen="true">
+            <Dimensions x="260" y="90" />
+            <Anchor point="CENTER" />
+            <OnMoveStop>
+                MovableWindowExample.OnWindowMoveStop(self)
+            </OnMoveStop>
+            <Controls>
+                <Backdrop name="$(parent)Bg" inherits="ZO_DefaultBackdrop">
+                    <AnchorFill />
+                </Backdrop>
+                <Label name="$(parent)Title" font="ZoFontWinH4" text="Drag me!">
+                    <Anchor point="CENTER" />
+                </Label>
+            </Controls>
+        </TopLevelControl>
+    </Controls>
+</GuiXml>

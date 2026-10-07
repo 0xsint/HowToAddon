@@ -1,0 +1,9 @@
+## Title: XML UI Example
+## Description: A minimal movable window built with ESOUI XML -- see docs/02-xml-reference.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+
+XmlUiExample.xml
+XmlUiExample.lua

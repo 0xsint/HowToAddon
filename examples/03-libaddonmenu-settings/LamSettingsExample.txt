@@ -1,0 +1,10 @@
+## Title: LAM Settings Example
+## Description: Registers a LibAddonMenu settings panel backed by SavedVariables -- see docs/04-libaddonmenu.md
+## Author: YourName
+## Version: 1.0.0
+## AddOnVersion: 1
+## APIVersion: 101051
+## SavedVariables: LamSettingsExampleSV
+## DependsOn: LibAddonMenu-2.0>=35
+
+LamSettingsExample.lua
